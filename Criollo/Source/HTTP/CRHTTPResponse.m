@@ -41,21 +41,21 @@
         [self setValue:[NSDate date].rfc1123String forHTTPHeaderField:@"Date"];
     }
 
-    if ( [self valueForHTTPHeaderField:@"Content-Type"] == nil ) {
-        [self setValue:@"text/plain; charset=utf-8" forHTTPHeaderField:@"Content-Type"];
-    }
+//    if ( [self valueForHTTPHeaderField:@"Content-Type"] == nil ) {
+//        [self setValue:@"text/plain; charset=utf-8" forHTTPHeaderField:@"Content-Type"];
+//    }
 
     if ( [self valueForHTTPHeaderField:@"Connection"] == nil ) {
-        NSString* connectionSpec = @"keep-alive";
+        NSString* connectionSpec = @"close";
         if ( self.version == CRHTTPVersion1_0 ) {
             connectionSpec = @"close";
         }
         [self setValue:connectionSpec forHTTPHeaderField:@"Connection"];
     }
 
-    if ( [self valueForHTTPHeaderField:@"Content-length"] == nil ) {
-        [self setValue:@"chunked" forHTTPHeaderField:@"Transfer-encoding"];
-    }
+//    if ( [self valueForHTTPHeaderField:@"Content-length"] == nil ) {
+//        [self setValue:@"chunked" forHTTPHeaderField:@"Transfer-encoding"];
+//    }
 
     [super buildHeaders];
 

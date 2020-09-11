@@ -10,10 +10,10 @@
 
 // Defaults
 NSString* const CRServerDefaultInterface = @"";
-NSUInteger const CRServerDefaultPort = 10781;
+NSUInteger const CRServerDefaultPort = 8081;
 NSUInteger const CRConnectionDefaultReadTimeout = 5;
 NSUInteger const CRConnectionDefaultWriteTimeout = 5;
-NSUInteger const CRConnectionDefaultKeepAliveTimeout = 15;
+NSUInteger const CRConnectionDefaultKeepAliveTimeout = 65;
 NSUInteger const CRConnectionDefaultMaxKeepAliveConnections = 10;
 
 // Keys

@@ -124,16 +124,17 @@
 }
 
 - (BOOL)shouldCloseConnection {
-    BOOL shouldClose = NO;
-
-    NSString *connectionHeader = [self valueForHTTPHeaderField:@"Connection"];
-    if ( connectionHeader != nil ) {
-        shouldClose = [connectionHeader caseInsensitiveCompare:@"close"] == NSOrderedSame;
-    } else {
-        shouldClose = self.version == CRHTTPVersion1_0;
-    }
-
-    return shouldClose;
+//    BOOL shouldClose = NO;
+//
+//    NSString *connectionHeader = [self valueForHTTPHeaderField:@"Connection"];
+//    if ( connectionHeader != nil ) {
+//        shouldClose = [connectionHeader caseInsensitiveCompare:@"close"] == NSOrderedSame;
+//    } else {
+//        shouldClose = self.version == CRHTTPVersion1_0;
+//    }
+//
+//    return shouldClose;
+    return YES;
 }
 
 #pragma mark - Body parsing

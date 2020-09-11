@@ -51,7 +51,7 @@
                 if ( [component hasPrefix:@":"] ) {
                     NSString *keyName = [component substringFromIndex:1];
                     if ( keyName.length == 0 ) {
-                        @throw [NSException exceptionWithName:NSInvalidArgumentException reason:[NSString stringWithFormat:NSLocalizedString(@"Invalid path variable name at position %lu",), idx]  userInfo:nil];
+                        @throw [NSException exceptionWithName:NSInvalidArgumentException reason:[NSString stringWithFormat:NSLocalizedString(@"Invalid path variable name at position %lu",), (unsigned long)idx]  userInfo:nil];
                     }
                     [pathKeys addObject:keyName];
                     [pathRegexComponents addObject:@"([a-zA-Z0-9\\+\\-_%\\.]+)"];

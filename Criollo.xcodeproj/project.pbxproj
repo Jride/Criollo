@@ -1243,7 +1243,7 @@
 			attributes = {
 				CLASSPREFIX = CR;
 				LastSwiftUpdateCheck = 0710;
-				LastUpgradeCheck = 1150;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "Cătălin Stan";
 				TargetAttributes = {
 					4ABB1DD91F9E6B0900480EC7 = {
@@ -1914,6 +1914,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "$(inherited)";
+				MARKETING_VERSION = 1.0.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1953,6 +1954,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "$(inherited)";
+				MARKETING_VERSION = 1.0.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -2007,7 +2009,7 @@
 				INFOPLIST_FILE = "Criollo/Criollo-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.0.1;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = io.criollo.Criollo;
 				PRODUCT_NAME = Criollo;
@@ -2060,7 +2062,7 @@
 				INFOPLIST_FILE = "Criollo/Criollo-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = io.criollo.Criollo;
 				PRODUCT_NAME = Criollo;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
